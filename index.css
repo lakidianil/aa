@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    text-align: center;
+    margin: 20px;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+/* Default button style */
+.button {
+    padding: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+}
+/* Different button styles */
+.button-primary {
+    background-color: #4CAF50; /* Green */
+}
+.button-secondary {
+    background-color: #008CBA; /* Blue */
+}
+.button-danger {
+    background-color: #f44336; /* Red */
+}
+.button-warning {
+    background-color: #ff9800; /* Orange */
+}
